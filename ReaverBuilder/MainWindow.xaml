@@ -1,0 +1,30 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReaverBuilder"
+        xmlns:avalonedit="http://icsharpcode.net/sharpdevelop/avalonedit" x:Class="ReaverBuilder.MainWindow"
+        mc:Ignorable="d"
+        Title="Reaver Builder" Height="450" Width="800" AllowsTransparency="True" Background="Transparent" WindowStartupLocation="CenterScreen" WindowStyle="None" Icon="/builderlogo.png" MouseDown="Window_MouseDown">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" Height="330" Margin="140,0,140,0" VerticalAlignment="Center" Background="#FF191919">
+            <Grid>
+                <avalonedit:TextEditor x:Name="textEditor" HorizontalAlignment="Left" Height="330" Margin="123,0,0,0" VerticalAlignment="Top" Width="395" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" ShowLineNumbers="True" Background="#161616" Foreground="White"/>
+                <Button Content="Add Download/Move" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="126" Margin="0,22,0,0" Background="#FF56B7D8" BorderBrush="Transparent" Foreground="White" Click="Button_Click_1"/>
+                <Button Content="Add Command" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="126" Margin="0,86,0,0" Background="#FF56B7D8" BorderBrush="Transparent" Foreground="White" Click="Button_Click_2"/>
+                <Label Content="discord.gg/JFaUZRXqCx" HorizontalAlignment="Left" Height="24" Margin="3,262,0,0" VerticalAlignment="Top" Width="118" Foreground="White" FontSize="10" MouseDown="Label_MouseDown"/>
+                <Image HorizontalAlignment="Left" Height="37" Margin="72,287,0,0" VerticalAlignment="Top" Width="40" Source="/builderlogo.png"/>
+                <TextBlock HorizontalAlignment="Left" Height="38" Margin="5,286,0,0" VerticalAlignment="Top" Width="67" Foreground="White" FontSize="15" TextWrapping="WrapWithOverflow">
+                    Reaver Builder
+                </TextBlock>
+                <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="20" Text="Enter text" VerticalAlignment="Top" Width="126" BorderBrush="Transparent" Background="#FF101010" Foreground="White"/>
+                <Button Content="Save/Open File" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="126" Margin="0,54,0,0" Background="#FF56B7D8" BorderBrush="Transparent" Foreground="White" Click="Button_Click"/>
+                <Button Content="Minimize App" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="126" Margin="0,117,0,0" Background="#FF56B7D8" BorderBrush="Transparent" Foreground="White" Click="Button_Click_3"/>
+                <Button Content="Exit App" HorizontalAlignment="Left" Height="34" VerticalAlignment="Center" Width="126" Background="#FF56B7D8" BorderBrush="Transparent" Foreground="White" Click="Button_Click_4"/>
+                <Button Content="Documentation" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="126" Margin="0,179,0,0" Background="#FF56B7D8" BorderBrush="Transparent" Foreground="White" Click="Button_Click_5"/>
+                <Button Content="Github" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="126" Margin="0,211,0,0" Background="#FF56B7D8" BorderBrush="Transparent" Foreground="White" Click="Button_Click_6"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

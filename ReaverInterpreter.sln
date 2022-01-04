@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaverInterpreter", "ReaverInterpreter\ReaverInterpreter.csproj", "{963C53AE-EB7F-4327-B023-7A95880E4B61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaverBuilder", "ReaverBuilder\ReaverBuilder.csproj", "{72194DBB-F16A-47C6-9F27-78D4BA024647}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{963C53AE-EB7F-4327-B023-7A95880E4B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{963C53AE-EB7F-4327-B023-7A95880E4B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{963C53AE-EB7F-4327-B023-7A95880E4B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{963C53AE-EB7F-4327-B023-7A95880E4B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72194DBB-F16A-47C6-9F27-78D4BA024647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72194DBB-F16A-47C6-9F27-78D4BA024647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72194DBB-F16A-47C6-9F27-78D4BA024647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72194DBB-F16A-47C6-9F27-78D4BA024647}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A885E90-2E1D-4E9A-A13A-977F7C8AD102}
+	EndGlobalSection
+EndGlobal
