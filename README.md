@@ -7,10 +7,10 @@ Reaver reads files created by developers and executes them on the users machine 
 
 # Building
 
-[AvalonEdit](https://github.com/icsharpcode/AvalonEdit) by ICSharpCode is needed for the editor to work.
+[AvalonEdit](https://github.com/icsharpcode/AvalonEdit)
 
 
-[MahApps.Metro](https://github.com/MahApps/MahApps.Metro) is also needed.
+[MahApps.Metro](https://github.com/MahApps/MahApps.Metro)
 
 
-[Fody.Costura](https://github.com/fody/costura) is recommended but not required.
+[Fody.Costura](https://github.com/fody/costura)
